@@ -1,0 +1,7 @@
+C:\Users\Theo\Desktop\Dev\DataStructures\DataStructures\SearchAlgorithms\obj\Debug\SearchAlgorithms.csprojResolveAssemblyReference.cache
+C:\Users\Theo\Desktop\Dev\DataStructures\DataStructures\SearchAlgorithms\obj\Debug\SearchAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\Theo\Desktop\Dev\DataStructures\DataStructures\SearchAlgorithms\bin\Debug\SearchAlgorithms.exe.config
+C:\Users\Theo\Desktop\Dev\DataStructures\DataStructures\SearchAlgorithms\bin\Debug\SearchAlgorithms.exe
+C:\Users\Theo\Desktop\Dev\DataStructures\DataStructures\SearchAlgorithms\bin\Debug\SearchAlgorithms.pdb
+C:\Users\Theo\Desktop\Dev\DataStructures\DataStructures\SearchAlgorithms\obj\Debug\SearchAlgorithms.exe
+C:\Users\Theo\Desktop\Dev\DataStructures\DataStructures\SearchAlgorithms\obj\Debug\SearchAlgorithms.pdb
