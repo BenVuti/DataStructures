@@ -1,0 +1,7 @@
+C:\Users\Theo\Desktop\Dev\DataStructures\DataStructures\BookSearch\bin\Debug\BookSearch.exe.config
+C:\Users\Theo\Desktop\Dev\DataStructures\DataStructures\BookSearch\bin\Debug\BookSearch.exe
+C:\Users\Theo\Desktop\Dev\DataStructures\DataStructures\BookSearch\bin\Debug\BookSearch.pdb
+C:\Users\Theo\Desktop\Dev\DataStructures\DataStructures\BookSearch\obj\Debug\BookSearch.csproj.CoreCompileInputs.cache
+C:\Users\Theo\Desktop\Dev\DataStructures\DataStructures\BookSearch\obj\Debug\BookSearch.exe
+C:\Users\Theo\Desktop\Dev\DataStructures\DataStructures\BookSearch\obj\Debug\BookSearch.pdb
+C:\Users\Theo\Desktop\Dev\DataStructures\DataStructures\BookSearch\obj\Debug\BookSearch.csprojResolveAssemblyReference.cache
