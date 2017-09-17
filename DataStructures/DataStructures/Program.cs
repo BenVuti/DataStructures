@@ -1,4 +1,5 @@
-﻿using DataStructures.BIT;
+﻿using DataStructures.BinaryTree;
+using DataStructures.BIT;
 using System;
 using System.Collections.Generic;
 
@@ -6,32 +7,24 @@ namespace DataStructures {
     class Program {
         static void Main(string[] args) {
 
-            List<int> list = new List<int> { 1, 7, 3, 0, 5, 8, 3, 2, 6, 2, 1, 1, 4, 5 };
-            BinaryIndexedTree bit = new BinaryIndexedTree(list);
+            var tree = new BinaryNode<char>('A');
+            var leftNode = new BinaryNode<char>('B');
+            var rightNode = new BinaryNode<char>('S');
+            leftNode.LeftNode = new BinaryNode<char>('C');
+            leftNode.RightNode = new BinaryNode<char>('D');
+            tree.LeftNode = leftNode;
+            rightNode.LeftNode = new BinaryNode<char>('H');
+            rightNode.LeftNode.LeftNode = new BinaryNode<char>('G');
+            rightNode.LeftNode.RightNode = new BinaryNode<char>('I');
+            rightNode.RightNode = new BinaryNode<char>('J');
+            rightNode.RightNode.LeftNode = new BinaryNode<char>('M');
+            tree.RightNode = rightNode;
 
-            Console.WriteLine("Array: ");
-            Console.WriteLine($"{String.Join(" ,", list)}");
-            Console.WriteLine();
+            var DFS = new DepthFirstSearch<char>();
+            DFS.Explore(tree);
 
-            Console.WriteLine($"Prefix sum of first 13 elements: {bit.SumTo(12)}");
-            Console.WriteLine($"Prefix sum of first 7 elements: {bit.SumTo(6)}");
-            Console.WriteLine($"Range sum from pos 1 to pos 5: {bit.SumRange(1, 5)}");
-            Console.WriteLine();
-
-            bit.Update(4, 2);
-            Console.WriteLine("Add 2 to element at pos 4");
-            for (int i = 0; i < list.Count; i++) {
-                list[i] = bit.SumRange(i, i);
-            }
-            Console.WriteLine();
-
-            Console.WriteLine("Array: ");
-            Console.WriteLine($"{String.Join(" ,", list)}");
-            Console.WriteLine();
-
-            Console.WriteLine($"Prefix sum of first 13 elements: {bit.SumTo(12)}");
-            Console.WriteLine($"Prefix sum of first 7 elements: {bit.SumTo(6)}");
-            Console.WriteLine($"Range sum from pos 1 to pos 5: {bit.SumRange(1, 5)}");
+            var BFS = new BreadthFirstSearch<char>();
+            BFS.Explore(tree);
 
             Console.ReadKey();
         }
